@@ -1,0 +1,177 @@
+/* -- TAGS -- */
+
+
+@font-face {
+    font-family: DIN OT;
+    src: url(fonts/DINOT.otf);
+}
+
+h1 {
+
+	text-indent: -9999px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: -165px;
+}
+
+body {
+	background: url("../images/header-bg.png") #000 top center no-repeat;
+	line-height: 2.5;
+	font-family: "DIN OT", Helvetica, Arial, sans-serif;
+}
+
+table {
+	text-align: center;
+}
+
+label {
+	margin-right: 3px;
+}
+
+
+input, select {
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+
+/* -- IDS -- */
+
+#wrapper {
+	width: 960px;
+	margin: auto;
+}
+
+#container {
+	width: 820px;
+	margin: auto;
+}
+
+
+#form {
+	width: 820px;
+	float: left;
+	margin-top: 420px;
+	color: #fff;
+
+}
+
+#about {
+	width: 700px;
+	padding: 60px 60px 40px 60px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	background: url("../images/300-90-5.png") #171717 top left repeat;
+}
+
+
+#host {
+	width: 700px;
+	padding: 60px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	background: url("../images/300-90-5.png") #171717 top left repeat;
+}
+
+#offers {
+	margin-top: 25px;
+	border-top: 1px solid #fff;
+}
+
+#offers p {
+	font-style: italic;
+}
+
+#server {
+	width: 700px;
+	padding: 60px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	background: url(" ../images/300-90-5.png") #171717 top left repeat;
+}
+
+#food {
+	width: 700px;
+	padding: 60px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	background: url("images/300-90-5.png") #171717 top left repeat;
+}
+
+#departure {
+	width: 700px;
+	padding: 60px;
+	margin-bottom: 100px;
+	border-radius: 15px;
+	background: url(" ../images/300-90-5.png") #171717 top left repeat;
+}
+
+#experience {
+	width: 700px;
+	padding: 60px;
+	margin-bottom: 0px;
+	border-radius: 15px;
+	background: url("images/300-90-5.png") #171717 top left repeat;
+}
+
+#submit {
+	width: 200px;
+	clear: left;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	text-align: center;
+
+}
+
+#footer {
+	width: 231px;
+	clear: left;
+	margin: 0px auto 35px auto;	
+	text-align: center;
+}
+
+
+
+/* -- CLASSES -- */
+
+
+.margin-top {
+	margin-top: -35px;
+}
+
+.col1 {
+	text-align: right;
+	padding-right: 30px;
+	border-right: 1px solid #fff;
+}
+
+.headerRow {
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.submit {
+	width: 200px;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 9px;
+	border-radius: 7px;
+	border: none;
+	background-color: #a35814;
+	color: #fff;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: #8c490d;
+
+}
+
+
+

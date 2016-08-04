@@ -1,0 +1,532 @@
+<!DOCTYPE html>	
+
+<html>
+
+	<head>
+		<title>TAP Form</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/TAPform.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		
+		<script type="text/javascript"></script>
+
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+			<div id="container">
+
+				<div id="form">
+
+					<h1>How Was Your Visit?</h1>
+
+					<form action="" method="" name="TAP Survey" id="TAPsurvey">
+
+						<div id="about" class="active">
+							<h2><img src="images/aboutHeader.png" alt="About You"></h2>
+							<div class="margin-top">
+								<label for="name">Name</label>
+								<input title="name" name="name" type="text" id="name" size="35">
+
+								<label for="mlifeNumber">M life Number</label>
+								<input name="mlifeNumber" type="text" id="mlifeNumber" size="35">
+							</div>
+
+							<div>
+								<label for="address">Address</label>
+								<input name="address" type="text" id="address" size="36">
+
+								<label for="address">City</label>
+								<input name="address" type="text" id="city" size="36">
+
+							</div>
+
+							<div>
+								<label for"state">State</label>
+								<select name="state" size="1">
+									<option value="ZZ">-Select-</option>
+									<option value="AL">Alabama</option>
+									<option value="AK">Alaska</option>
+									<option value="AZ">Arizona</option>
+									<option value="AR">Arkansas</option>
+									<option value="CA">California</option>
+									<option value="CO">Colorado</option>
+									<option value="CT">Connecticut</option>
+									<option value="DE">Delaware</option>
+									<option value="FL">Florida</option>
+									<option value="GA">Georgia</option>
+									<option value="HI">Hawaii</option>
+									<option value="ID">Idaho</option>
+									<option value="IL">Illinois</option>
+									<option value="IN">Indiana</option>
+									<option value="IA">Iowa</option>
+									<option value="KS">Kansas</option>
+									<option value="KY">Kentucky</option>
+									<option value="LA">Louisiana</option>
+									<option value="ME">Maine</option>
+									<option value="MD">Maryland</option>
+									<option value="MA">Massachusetts</option>
+									<option value="MI">Michigan</option>
+									<option value="MN">Minnesota</option>
+									<option value="MS">Mississippi</option>
+									<option value="MO">Missouri</option>
+									<option value="MT">Montana</option>
+									<option value="NE">Nebraska</option>
+									<option value="NV">Nevada</option>
+									<option value="NH">New Hampshire</option>
+									<option value="NJ">New Jersey</option>
+									<option value="NM">New Mexico</option>
+									<option value="NY">New York</option>
+									<option value="NC">North Carolina</option>
+									<option value="ND">North Dakota</option>
+									<option value="OH">Ohio</option>
+									<option value="OK">Oklahoma</option>
+									<option value="OR">Oregon</option>
+									<option value="PA">Pennsylvania</option>
+									<option value="RI">Rhode Island</option>
+									<option value="SC">South Carolina</option>
+									<option value="SD">South Dakota</option>
+									<option value="TN">Tennessee</option>
+									<option value="TX">Texas</option>
+									<option value="UT">Utah</option>
+									<option value="VT">Vermont</option>
+									<option value="VA">Virginia</option>
+									<option value="WA">Washington</option>
+									<option value="WV">West Virginia</option>
+									<option value="WI">Wisconsin</option>
+									<option value="WY">Wyoming</option>
+								</select>
+
+								<label for="zip">Zip Code</label>
+								<input name="zipcode" type="text" id="zipcode" size="5">
+
+								<label for="zip">Email</label>
+								<input name="email" type="text" id="email" size="35">
+
+							</div>
+
+							<div id="offers">
+
+								<p><input type="checkbox" name="offers" value="Yes"> Yes, I would like to receive emails about special events and dining deals.</p>
+
+							</div>
+
+						</div> <!-- end about -->
+
+						<div id="host">
+
+							<h2><img src="images/diningExperienceHost.png" alt="Dining Experience - Host"></h2>
+
+							<div>
+								<label for="hostName">Host Name</label>
+								<input name="hostName" type="text" id="name" size="36">
+							</div>
+
+							<div>
+								<table>
+									<tr>
+										<th class="col1"></th>
+										<th class="headerRow">Unsatisfactory</th>
+										<th class="headerRow">Satisfactory</th>
+										<th class="headerRow">Outstanding</th>
+									</tr>
+										<td class="col1">Acknowledged Upon Arrival</td>
+										<td>
+											<input type="radio" name="acknowledged" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="acknowledged"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="acknowledged" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Greeted With a Smile</td>
+										<td>
+											<input type="radio" name="smile" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="smile"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="smile" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Portrayed Genuine Interest</td>
+										<td>
+											<input type="radio" name="genuine" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="genuine"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="genuine" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Friendliness of Host</td>
+										<td>
+											<input type="radio" name="friendly" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="friendly"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="friendly" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Name Use</td>
+										<td>
+											<input type="radio" name="nameUse" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="nameUse"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="nameUse" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+
+								</table>	
+
+								<p>Comments:</p>
+								<textarea <textarea name="comments" id="hostComments" rows="5" cols="50"></textarea>
+
+							</div>
+
+						</div> <!-- end host -->
+
+						<div id="server">
+
+							<div>
+								<h2><img src="images/diningExperienceServer.png" alt="Dining Experience - Server"></h2>
+
+								<label for="serverName">Name</label>
+								<input name="serverName" type="text" id="serverName" size="36">
+							</div>
+
+							<div>
+								<table>
+									<tr>
+										<th class="col1"></th>
+										<th class="headerRow">Unsatisfactory</th>
+										<th class="headerRow">Satisfactory</th>
+										<th class="headerRow">Outstanding</th>
+									</tr>
+										<td class="col1">Knowledge of food items</td>
+										<td>
+											<input type="radio" name="foodKnowledge" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="foodKnowledge" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="foodKnowledge" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Knowledge of beverage itmes</td>
+										<td>
+											<input type="radio" name="bevKnowledge" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="bevKnowledge"id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="bevKnowledge" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Portrayed general interest</td>
+										<td>
+											<input type="radio" name="serverInterest" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="serverInterest" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="serverInterest" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Attention to detail</td>
+										<td>
+											<input type="radio" name="detail" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="detail" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="detail" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Anticipated guest needs</td>
+										<td>
+											<input type="radio" name="anticipatedNeeds" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="anticipatedNeeds" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="anticipatedNeeds" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Engaged in conversation</td>
+										<td>
+											<input type="radio" name="engaged" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="engaged" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="engaged" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Name use</td>
+										<td>
+											<input type="radio" name="serverNameUse" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="serverNameUse" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="serverNameUse" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+
+
+
+								</table>	
+
+									<p>Comments:</p>
+									<textarea <textarea name="comments" id="serverComments" rows="5" cols="50"></textarea>
+
+								</div>
+
+						</div> <!-- end server -->
+
+						<div id="food">
+
+							<div>
+								<h2><img src="images/diningExperienceFood.png" alt="Dining Experience - Food"></h2>
+
+								<label for="mealName">Meal Name</label>
+								<input name="mealName" type="text" id="mealName" size="36">
+							</div>
+
+							<div>
+								<table>
+									<tr>
+										<th class="col1"></th>
+										<th class="headerRow">Unsatisfactory</th>
+										<th class="headerRow">Satisfactory</th>
+										<th class="headerRow">Outstanding</th>
+									</tr>
+										<td class="col1">Presentation</td>
+										<td>
+											<input type="radio" name="presentation" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="presentation" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="presentation" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Timing</td>
+										<td>
+											<input type="radio" name="timing" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="timing" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="timing" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Temperature</td>
+										<td>
+											<input type="radio" name="temperature" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="temperature" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="temperature" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Flavor/taste</td>
+										<td>
+											<input type="radio" name="flavor" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="flavor" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="flavor" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+								</table>	
+
+									<p>Comments:</p>
+									<textarea <textarea name="comments" id="mealComments" rows="5" cols="50"></textarea>
+
+								</div>
+
+						</div>  <!-- end food -->
+
+						<div id="departure">
+
+							<h2><img src="images/departureHeader.png" alt="Departure"></h2>
+
+							<div class="margin-top">
+								<table>
+									<tr>
+										<th class="col1"></th>
+										<th class="headerRow">Unsatisfactory</th>
+										<th class="headerRow">Satisfactory</th>
+										<th class="headerRow">Outstanding</th>
+									</tr>
+										<td class="col1">Appreciative remarks</td>
+										<td>
+											<input type="radio" name="appreciativeRemarks" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="appreciativeRemarks" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="appreciativeRemarks" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Anticipatory remarks</td>
+										<td>
+											<input type="radio" name="anticipatoryRemarks" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="anticipatoryRemarks" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="anticipatoryRemarks" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+								</table>	
+
+							</div>
+
+						</div>  <!-- end departure -->
+
+						<div id="experience">
+
+							<h2><img src="images/experienceHeader.png" alt="Overall Experience"></h2>
+
+							<div class="margin-top">
+								<table>
+									<tr>
+										<th class="col1"></th>
+										<th class="headerRow">Unsatisfactory</th>
+										<th class="headerRow">Satisfactory</th>
+										<th class="headerRow">Outstanding</th>
+									</tr>
+										<td class="col1">Atmosphere</td>
+										<td>
+											<input type="radio" name="atmosphere" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="atmosphere" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="atmosphere" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									<tr>
+										<td class="col1">Cleanliness of dining room</td>
+										<td>
+											<input type="radio" name="cleanliness" id="unsatisfactory" value="unsatisfactory">
+										</td>
+										<td>
+											<input type="radio" name="cleanliness" id="satisfactory" value="satisfactory">
+										</td>
+										<td>
+											<input type="radio" name="cleanliness" id="outstanding" value="outstanding">
+										</td>
+									</tr>
+
+									
+
+								</table>	
+
+								<div id="questions">
+
+									<p>Would you return to TAP?</p>
+
+									<label for="yes">Yes</label>
+									<input type="radio" name="return" id="yes" value="yes">
+
+									<label for="no">No</label>
+									<input type="radio" name="return" id="no" value="no">
+
+									<p>If yes, how often would you expect to visit?</p>
+									<textarea <textarea name="comments" id="visit" rows="5" cols="70"></textarea>
+
+									<p>What dishes did you select?</p>
+									<textarea <textarea name="comments" id="dishSelection" rows="5" cols="70"></textarea>
+
+									<p>What dishes would you like to see added to our menu?</p>
+									<textarea <textarea name="comments" id="addDishes" rows="5" cols="70"></textarea>
+
+									<p>Please share any additional comments or suggestions on your overall experience</p>
+									<textarea <textarea name="comments" id="suggestions" rows="5" cols="70"></textarea>
+
+								</div>
+
+							</div>
+
+						</div>  <!-- end experience -->
+
+						<div id="submit"><input type="submit" value="submit" class="submit"></div>
+
+					</form>						
+
+				</div> <!-- end form -->
+
+				<footer id="footer"><img src="images/mgmLogo.png" alt="MGM logo"></footer>
+
+			</div> <!-- end container -->
+
+		</div> <!-- end wrapper -->
+
+	</body>
+
+</html>

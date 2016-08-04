@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<slide color="0x000000" image="img/charger_carcolor_black.png" default="default" />
+	<slide color="0x024084" image="img/charger_carcolor_blue.png" />
+	<slide color="0x1d301d" image="img/charger_carcolor_green.png" />
+	<slide color="0xa0191d" image="img/charger_carcolor_red.png" />
+	<slide color="0xeeeeee" image="img/charger_carcolor_white.png" />
+</data>

@@ -1,0 +1,693 @@
+body {
+	overflow-y: scroll;
+}
+
+
+/* -- HEADER-- */
+
+#headerWrap {
+	width: 100%;
+	height: 17.5em;
+
+}
+
+header {
+	width: 100%;
+	height: 17.5em;	
+	margin: 0 auto;	
+	background: url("../images/headerBG.jpg") top left no-repeat;
+	background-size: 100% auto;
+}
+
+.header {
+	padding-top: 5.5em;
+	height: 100px;
+	overflow: hidden;
+}
+
+
+h1 {
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 6em;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 2px #000;
+	position: relative;
+	z-index: 500;
+	-moz-transition: top 0.5s;
+	-webkit-transition: top 0.5s;
+}
+
+h1 {
+	-moz-animation: dropIn 0.5s backwards 0.5s;
+	-webkit-animation: dropIn 0.5s backwards 0.5s;
+}
+
+@-webkit-keyframes dropIn {
+	from {-webkit-transform: translate(0, -500px);}
+	to {-webkit-transform: translate(0, 0);}
+}
+
+@-moz-keyframes dropIn {
+	from {-moz-transform: translate(0, -500px);}
+	to {-moz-transform: translate(0, 0);}
+}
+
+h2 {
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 1.875em;
+	text-align: center;
+	position: relative;
+	margin-top: -50px;
+	color: #fff;
+	text-shadow: 0px 2px #000;
+	display: none;
+
+	-moz-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s; 
+}
+
+
+.ampersand {
+	font-family: "Palatino";
+	font-size: 3.75em;
+	font-style: italic;
+	line-height: 25px;
+	margin-top: 0.938em;
+}
+
+/* -- BIO -- */
+
+#bio {
+	width: 100%;
+	clear: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 4.375em 6.250em 4.375em 6.250em
+}
+
+#bio p {
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 2.25em;
+	text-align: center;
+}
+
+/* -- NAV -- */
+
+nav {
+	width: 100%;
+	clear: left;
+	height: 15em;
+}
+
+
+nav ul li {
+	width: 33.33%;
+	height: 240px;
+	float: left;
+	font-family: "proxima_novalight", "Helvetica", "Arial", sans-serif;
+	font-size: 2.5em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 240px;
+	text-decoration: none;
+	background-color: #d4d4d4;
+
+	transition-property : background-color; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-color;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-color; 
+  	-webkit-transition-duration : 0.5s; 
+}
+
+
+nav ul li:hover {
+	background-color: #ee7a52;
+	cursor: pointer;
+}
+
+
+/* -- SLIDERS -- */
+
+#work {
+	width: 100%;
+	clear: left;
+	position:relative;
+}
+
+#logoSlider, #printSlider, #siteSlider {
+	width: 100%;
+	overflow: hidden;
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+.active {
+	background-color: #d36d4a;
+}
+
+
+/* -- ABOUT ME -- */
+
+#aboutMe {
+	width: 100%;
+	clear: left;	
+}
+
+.resume-btn {
+	width: 100%;
+	height: 175px;
+	background-color: #303030;
+	text-align: center;
+	line-height: 175px;
+	color: #fff;
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 1.75em;
+	transition-property : background-color; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-color;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-color; 
+  	-webkit-transition-duration : 0.5s;
+}
+
+.resume-btn:hover {
+	background-color: #ee7a52;
+}
+
+.aboutMe {
+	width: 100%;
+}
+
+#portrait {
+	width: 12.500em;
+	height: 12.500em;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 10px solid #fff;
+	margin: 0 auto .875em auto;
+}
+
+#contact {
+	float: left;
+	margin-top: 40px;
+
+}
+
+#aboutMe {
+	font-family: 'pill_gothic_300mg_rgregular';
+}
+
+.statement {
+	text-align: center;
+	font-size: 18px;
+	padding: 15px;
+}
+
+#aboutMe h3 {
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 1.75em;
+	color: #fff;
+	margin-bottom: 5px;
+
+}
+
+#aboutMe p a {
+	font-family: "pill_gothic_300mglight_obliq";
+	font-size: 1em;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+#aboutMe p a:hover {
+	color: #ee7a52;
+}
+
+/* --  RESEUME -- */
+
+h4 {
+	width: 85px;
+	font-family: 'pill_gothic_300mgmedium';
+	font-size: 1.250em;
+	text-align: center;
+	padding: .875em;
+	margin: 0px auto 30px auto;
+	background-color: #fff;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-family: 'pill_gothic_300mgmedium';
+	text-align: left;
+	text-transform: uppercase;
+
+}
+
+.date {
+	font-family: 'pill_gothic_300mgmedium_obliq';
+	color: #ee7a52;
+	text-transform: uppercase;
+
+}
+
+#resume {
+	width: 100%;
+	clear: left;
+	z-index: 500;
+	margin-top:-35px;
+}
+
+#resume p {
+	line-height: 1.2;
+}
+
+#education, #skills {
+	width: 46%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0 2% 0 2%;
+	float: left;
+	background: url('../images/resume-headerLine.jpg') #fff left top repeat-x;
+	background-position: 0 45px;
+	font-family: 'pill_gothic_300mg_rgregular';
+}
+
+.skillsTitle {
+	width: 3.125em;
+}
+
+#skills img {
+	width: 110px;
+	height: 110px;
+	float: left;
+	margin: 0px 8px 8px 8px;
+}
+
+.skills {
+	font-family: 'pill_gothic_300mglight_obliq';
+	float: left;
+	clear: left;
+	margin-top: 15px;
+}
+
+.skillsSVG {
+	display: inline-block;
+	text-align: center;
+}
+
+.photoshop, .illustrator, .uiux, .htmlcss, .mockup, .rwd{
+	width: 110px;
+	height: 110px;
+	background: url("../images/skills2.svg") left top no-repeat;
+	overflow: hidden;
+	float: left;
+	margin: 0px 8px 8px 8px;
+
+}
+
+.photoshop {
+	background-position: 0px 0px;
+}
+
+.illustrator {
+	background-position: -110px 0px;
+}
+
+.uiux {
+	background-position: -220px 0px;
+}
+
+.htmlcss {
+	background-position: -330px 0px;
+}
+
+.mockup{
+	background-position: -440px 0px;
+}
+
+.rwd {
+	background-position: -550px 0px;
+
+}
+
+.strong {
+	font-family: 'pill_gothic_300mgoblique';
+}
+
+#education div {
+	float: left;
+	clear: left;
+	margin-bottom: 15px;
+	margin-left: 40px;
+}
+
+#experience {
+	width: 96%;
+	clear: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0 2% 0 2%;
+	background: url('../images/resume-headerLine.jpg') #fff left top repeat-x;
+	background-position: 0 45px;
+	font-family: 'pill_gothic_300mg_rgregular';
+}
+
+#experience ul {
+	height: auto;
+}
+
+#experience ul li {
+	clear: left;
+	margin-top: 10px;
+	line-height: 1.35;
+}
+
+.experience {
+	width: 145px;
+}
+
+.job {
+	width: 26%;
+	float: left;
+	margin: 0 3% 0 3%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#achievements {
+	width: 96%;
+	clear: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: 0 2% 0 2%;
+	background: url('../images/resume-headerLine.jpg') #fff left top repeat-x;
+	background-position: 0 45px;
+	font-family: 'pill_gothic_300mglight';
+
+}
+
+.achievements {
+	width: 116px;
+}
+
+#achievements div {
+	width: 44%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0px 3% 20px 3%;
+}
+
+.emphasis {
+	font-family: 'pill_gothic_300mg_rgregular';
+}
+
+#achievements ul {
+	line-height: 1.2;
+	margin-bottom: 15px;
+
+}
+
+#achievements ul.col1 li {
+	margin-bottom: 10px;
+
+}
+
+
+
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media (max-width: 48.000em) { /* 768px */
+
+	#headerWrap {
+		height: 15em;
+
+	}
+
+	header {
+		height: 15em;
+	}
+
+	.header {
+		padding-top: 5em;
+	}
+
+	h1 {
+		font-size: 4.5em;
+	}
+
+	/* -- BIO -- */
+
+	#bio {
+		padding: 2.375em 2.25em;
+	}
+
+	#bio p {
+		font-size: 2.25em;
+	}
+
+	/* -- NAV -- */
+
+	nav {
+		height: 200px;
+	}
+
+	nav ul li {
+		height: 200px;
+		font-size: 1.875em;		
+		line-height: 200px;
+
+	}
+
+	/* -- ABOUT ME -- */
+
+
+	/* -- RESUME -- */
+
+	#education, #skills, #experience, #achievements {
+	background: url('../images/resume-headerLine.jpg') #fff left top repeat-x;
+	background-position: 0 25px;
+	padding: 0;
+	width: 95%;
+	clear: left;
+	margin: 0 auto;
+	float: none;
+	}
+
+	h4 {
+	margin-bottom: 14px;
+	font-size: 30px;
+	padding: .375em;
+	width: 130px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	.experience {
+		width: 210px;
+	}
+
+	.achievements {
+		width: 173px;
+	}
+
+	#education div, #achievements div {
+		width: 44%;
+		float: left;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		margin: 0px 3% 0px 3%;
+	}
+
+	#education div {
+		clear: none;
+	}
+
+	.job {
+		width: 100%;
+		clear: left;
+		padding: .938em;
+		margin: 0 auto 25px auto;
+	}
+
+	/* -- FOOTER -- */
+
+}	
+
+/* Mobile Layout: 480px and below. */
+
+@media (max-width: 30em) { /* 480px */
+
+	#headerWrap {
+		height: 10em;
+
+	}
+
+	header {
+		height: 8em;	
+		padding-top: 2em;
+	}
+
+	.header {
+		padding-top: 0em;
+	}
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	h2 {
+		margin-top: -30px;
+		display: none;
+	}
+
+	.ampersand {
+		font-size: 3em;
+		line-height: 15px;
+		margin-top: 15px;
+	}
+
+	#bio {
+		padding: 2.375em 2.25em;
+	}
+
+	#bio p {
+		font-size: 1.75em;
+	}
+
+	/* -- NAV -- */
+
+	nav {
+		height: 75px;
+	}
+
+	nav ul li {
+		height: 75px;
+		font-size: 1.563em;		
+		line-height: 75px;
+
+	}
+
+	footer {
+		height: 220px;
+		padding-top: 35px;
+		
+	}
+
+	/* -- ABOUT ME -- */
+
+	.aboutMe {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+
+
+	/* -- RESUME -- */
+
+	#portrait {
+		float: none;		
+		width: 200px;
+		-moz-border-radius: 50%;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		border: 10px solid #fff;
+	}
+
+	#contact {
+		width: 100%;
+		clear: left;
+		margin: 10px auto 10px auto;
+	}
+
+	#education, #skills, #experience, #achievements {
+		background: url('../images/resume-headerLine.jpg') #fff left top repeat-x;
+		background-position: 0 25px;
+		padding: 0;
+		width: 95%;
+		clear: left;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#education div {
+		width: 94%;
+		clear: left;
+		margin: 0px 3% 15px 3% ;
+	}
+
+	.skills {
+		
+	}
+
+	h4 {
+	margin-bottom: 14px;
+	font-size: 30px;
+	padding: .375em;
+	width: 130px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	.experience {
+		width: 210px;
+	}
+
+	.achievements {
+		width: 173px;
+	}
+
+	#achievements div {
+		width: 100%;
+		float: left;
+		clear: left;
+		padding: .938em;
+		margin: 0 auto;
+
+	}
+
+	.job {
+		width: 100%;
+		clear: left;
+		padding: .938em;
+		margin: 0 auto 20px auto;
+	}
+
+	/* -- FOOTER -- */
+
+	footer h3 {
+		text-align: center;
+		margin-bottom: 5px;
+	}
+
+	footer p {
+		text-align: center;
+	}
+
+	footer p a {
+		text-align: center;
+	}
+
+}
+

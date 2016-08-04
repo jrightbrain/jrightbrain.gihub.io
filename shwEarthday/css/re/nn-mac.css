@@ -1,0 +1,36 @@
+#navbar ul {
+	margin: 0 0 0 5px;
+}
+
+#navbar li {
+	display: inline;
+}
+
+
+#navbar a {
+	display: block;
+	float: left;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 5px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#navbar a:hover {
+	color: #54534A;
+}
+
+#navbar li.active a {
+	color: #FFFFFF;
+}
+
+
+#h_text {
+	margin: 23px 0 0 50px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	font-size:14px;
+	width: 300px;
+}
